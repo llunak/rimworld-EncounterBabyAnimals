@@ -3,7 +3,7 @@
     <OutputPath>..\1.6\Assemblies</OutputPath>
     <TargetFramework>net472</TargetFramework>
     <AssemblyTitle>Encounter Baby Animals</AssemblyTitle>
-    <AssemblyVersion>2025.0806.1</AssemblyVersion>
+    <AssemblyVersion>2025.0815.1</AssemblyVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <LangVersion>latest</LangVersion>
