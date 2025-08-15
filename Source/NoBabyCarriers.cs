@@ -61,7 +61,7 @@ public static class PawnGenerator_Patch
     static bool GenerateRandomAge_AgeAllowed(bool result, Pawn p, float y)
     {
         if( result && PawnGroupKindWorker_Trader_Patch.inGenerateCarriers && y < p.ageTracker?.AdultMinAge )
-            return false;
+            return XmlExtensions.SettingsManager.GetSetting( "Yoann.BabiesAnimals", "BabyCarriers" ) == "True";
         return result;
     }
 }

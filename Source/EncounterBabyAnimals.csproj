@@ -35,6 +35,14 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <!-- This is rather outdated, but it's good enough for the one function used. -->
+    <PackageReference Include="15adhami.XmlExtensions">
+       <Version>*</Version>
+      <ExcludeAssets>runtime</ExcludeAssets>
+      <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
     <Publicize Include="Assembly-CSharp" IncludeCompilerGeneratedMembers="false" IncludeVirtualMembers="false"/>
   </ItemGroup>
 </Project>

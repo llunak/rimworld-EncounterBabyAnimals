@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XmlExtensions.SettingsMenuDef>
+        <modId>Yoann.BabiesAnimals</modId>  <!-- Mod identifier, PackageID is standard -->    
+        <label>Encounter Baby Animals</label> <!-- This is what displays as your mod's name -->    
+        <settings>                 <!-- This is where you define what settings are in the settings menu -->
+            <li Class="XmlExtensions.Setting.Checkbox"> <!-- Can use any class from XmlExtensions.Setting -->
+                <key>BabyCarriers</key>
+                <label>Allow baby animals as caravan pack animals</label>
+                <defaultValue>false</defaultValue>       <!-- You should repeat the defaultValue here to ensure no possible bugs -->
+            </li>
+        </settings>
+    </XmlExtensions.SettingsMenuDef>
+</Defs>
